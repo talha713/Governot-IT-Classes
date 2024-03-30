@@ -56,8 +56,14 @@
 
 // DEFAULT PARAMETERS
 
-function greet(message = "hello world") {
-    return message;
-}
-let result = greet("hello talha");
-console.log(result);
+// function greet(message = "hello world") {
+//     return message;
+// }
+// let result = greet("hello talha");
+// console.log(result);
+
+
+// ARROW FUNCTION
+let greet = () => "Hello world";
+let result = greet();
+console.log(greet);
